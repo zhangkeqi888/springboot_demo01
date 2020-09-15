@@ -17,6 +17,11 @@ public class MyRestController {
 
     @Autowired
     private UserService userService;
+    //测试访问方法
+    @RequestMapping("/test")
+    public @ResponseBody void test(){
+        System.out.println("测试一");
+    }
 
     //测试访问方法
     @RequestMapping("/loadAllUser")
