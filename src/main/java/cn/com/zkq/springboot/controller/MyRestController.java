@@ -21,6 +21,7 @@ public class MyRestController {
     @RequestMapping("/test")
     public @ResponseBody void test(){
         System.out.println("测试一");
+        System.out.println("测试二");
     }
 
     //测试访问方法
